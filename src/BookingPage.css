@@ -1,0 +1,32 @@
+.booking-page {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--primary-yellow); /* Using the primary yellow for the background */
+    color: var(--primary-dark); /* Assuming you have a dark color for text */
+  }
+  
+  .booking-page h1 {
+    margin-bottom: 20px;
+    color: var(--primary-dark); /* Dark text color */
+  }
+  
+  .booking-page p {
+    margin-bottom: 20px;
+    color: var(--secondary-dark); /* Slightly lighter than primary dark for text */
+    font-size: 1.2em;
+  }
+  
+  /* Adjustments to avoid duplication with BookingForm.css */
+  .reserve-form {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--primary-light); /* Light background for the form area */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
